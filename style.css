@@ -1,8 +1,43 @@
 *{
   margin: 0;
   padding: 0;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
 }
 
 .container{
   display: grid;
+}
+
+.result{
+  grid-column: 2;
+  grid-row: 1;
+  height: 100px;
+  width: 100px;
+  border: solid 1px blue;
+}
+
+.minus{
+  grid-column: 1;
+  grid-row: 2;
+  height: 100px;
+  width: 100px;
+  border: solid 1px red;
+}
+
+.input{
+  grid-column: 2;
+  grid-row: 2;
+  height: 100px;
+  width: 100px;
+  border: solid 1px purple;
+}
+
+.plus{
+  grid-column: 3;
+  grid-row: 2;
+  height: 100px;
+  width: 100px;
+  border: solid 1px green;
 }
