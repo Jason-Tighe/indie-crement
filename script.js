@@ -31,6 +31,9 @@ function addition(){
   x++
   input.innerHTML = x;
   result.innerHTML = x
+  if(x >= 0){
+    result.style.color = "black"
+  }
 }
 
 function subtract(){
