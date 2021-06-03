@@ -4,10 +4,12 @@
   font-size: 20px;
   text-align: center;
   justify-content: center;
+  color: white;
 }
 
 .container{
   display: grid;
+  margin-top: 25vh;
 }
 
 .result{
@@ -16,6 +18,8 @@
   height: 100px;
   width: 100px;
   border: solid 1px blue;
+  background: blue;
+  text-decoration: underline;
 }
 
 .minus{
@@ -24,6 +28,7 @@
   height: 100px;
   width: 100px;
   border: solid 1px red;
+  background: red;
 }
 
 .input{
@@ -32,6 +37,7 @@
   height: 100px;
   width: 100px;
   border: solid 1px purple;
+  background: purple;
 }
 
 .plus{
@@ -40,4 +46,5 @@
   height: 100px;
   width: 100px;
   border: solid 1px green;
+  background: green;
 }
