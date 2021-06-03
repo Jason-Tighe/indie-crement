@@ -17,8 +17,7 @@ const add = document.getElementById("positive")
 
 //we're going to want the - to subtract and the + to add.
 // you want result + or - empty
-
-
+//i'm having an issue with the last part.
 
 
 
