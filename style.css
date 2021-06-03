@@ -17,9 +17,13 @@
   margin-top: 25vh;
 }
 
-#test{
-  background: black;
-
+.test{
+    grid-column: 2;
+    grid-row: 2;
+    height: 100px;
+    width: 100px;
+    border: solid 1px #ae5aeb;
+    background: #ae5aeb;
 }
 
 .result{
@@ -41,14 +45,7 @@
   background: #f25b40;
 }
 
-.input{
-  grid-column: 2;
-  grid-row: 2;
-  height: 100px;
-  width: 100px;
-  border: solid 1px #ae5aeb;
-  background: #ae5aeb;
-}
+
 
 .plus{
   grid-column: 3;
