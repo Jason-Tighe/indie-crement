@@ -11,7 +11,7 @@ const total = document.getElementById("bigPicture")
 const sub = document.getElementById("negative")
 const add = document.getElementById("positive")
 
-var test = document.getElementById("test")
+// var test = document.getElementById("test")
 var val = parseInt(document.querySelector('input.test').value, 10);
 
 
@@ -21,7 +21,7 @@ var x = 0;
 
 
 function addition(){
-  x+= parseInt(test.value)
+  x+= val
   result.innerHTML = x
   if(x >= 0){
     result.style.color = "white"
@@ -30,7 +30,7 @@ function addition(){
 
 
 function subtract(){
-  x-=parseInt(test.value)
+  x-= val
   result.innerHTML = x
   if(x < 0){
     result.style.color = "red"
@@ -41,7 +41,7 @@ function subtract(){
 
 
 plus.addEventListener('mouseover', (e)=>{
-  plus.style.background = "#f9dc9e"
+  plus.style.background = "#d3f99e"
   plus.style.color = "black"
 })
 
@@ -51,7 +51,7 @@ plus.addEventListener('mouseout', (e)=>{
 })
 
 minus.addEventListener('mouseover', (e)=>{
-  minus.style.background = "#f9dc9e"
+  minus.style.background = "#fb8b8b"
   minus.style.color = "black"
 })
 
