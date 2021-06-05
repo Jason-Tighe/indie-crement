@@ -21,7 +21,7 @@
     grid-column: 2;
     grid-row: 2;
     height: 100px;
-    width: 100px;
+    width: 150px;
     border: solid 1px #ae5aeb;
     background: #ae5aeb;
 }
@@ -30,7 +30,7 @@
   grid-column: 2;
   grid-row: 1;
   height: 100px;
-  width: 100px;
+  width: 150px;
   border: solid 1px #3cdde2;
   background: #3cdde2;
   text-decoration: underline;
