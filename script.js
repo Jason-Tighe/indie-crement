@@ -21,7 +21,7 @@ var x = 0;
 
 
 function addition(){
-  x+= val
+  x+= parseInt(test.value)
   result.innerHTML = x
   if(x >= 0){
     result.style.color = "white"
@@ -30,7 +30,7 @@ function addition(){
 
 
 function subtract(){
-  x-= val
+  x-= parseInt(test.value)
   result.innerHTML = x
   if(x < 0){
     result.style.color = "red"
